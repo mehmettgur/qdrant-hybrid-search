@@ -1,8 +1,8 @@
-Qdrant Hybrid Search
+# Qdrant Hybrid Search
 
 The shared goal of these two algorithms is to quickly and accurately identify relevant information segments within large text collections, then provide a solid context to language models to enhance answer quality and accuracy.
 
-Why Use It?
+## Why Use It?
 
 Fast Information Retrieval: Manual search through long documents is time-consuming. This solution leverages vector similarity and keyword filtering to find relevant passages in milliseconds.
 
@@ -14,7 +14,7 @@ Scalability: Capable of indexing and querying any text source (PDFs, web pages, 
 
 Optimized for Short Chunks: This approach is generally more effective with shorter text chunks, as it preserves semantic coherence and improves retrieval precision.
 
-Advantages
+## Advantages
 
 Hybrid Approach: Combining 0.7 × cosine similarity with 0.3 × keyword overlap yields results that are both contextually relevant and content-rich, outperforming vector-only or keyword-only searches.
 
